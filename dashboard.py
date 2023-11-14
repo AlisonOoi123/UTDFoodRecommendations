@@ -17,14 +17,15 @@ st.markdown('<style>div.block-container{padding-top:1rem;}</style>',unsafe_allow
 st.markdown(
     """
     Hello! Explore restaurants in the DFW area using the filters on the left. 
-    For personalized recommendations, see form at the bottom of the page! 
+    For personalized recommendations, see form at the bottom of the page! See
+    original Google Spreadsheet [here](https://tinyurl.com/utdfoodguide). 
     """
 )
 
 # Open the URL in the browser
 spreadsheet_url = st.secrets["connections"]["spreadsheet"]
-if st.button("Open Google Sheets"):
-    webbrowser.open_new_tab(spreadsheet_url)
+#if st.button("Open Google Sheets"):
+    #webbrowser.open_new_tab(spreadsheet_url)
 
 # Create a connection object.
 conn = st.connection("gsheets", type=GSheetsConnection)
