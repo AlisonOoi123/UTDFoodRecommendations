@@ -98,7 +98,7 @@ with cl2:
     st.dataframe(top_rated_df[['Name', 'Neighborhood', 'Cuisine', 'Rating']], width=1000)
 
 st.title("Restaurants")
-st.dataframe(filtered_df[['Name', 'Neighborhood', 'Cuisine', 'Rating']])
+st.dataframe(filtered_df[['Name', 'Neighborhood', 'Cuisine', 'Rating', 'Cost', 'Notes']])
 
 df_with_coordinates = filtered_df[(filtered_df['latitude'].notna()) & (filtered_df['longitude'].notna())]
 
