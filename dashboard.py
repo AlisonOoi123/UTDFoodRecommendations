@@ -17,7 +17,7 @@ st.markdown('<style>div.block-container{padding-top:1rem;}</style>',unsafe_allow
 st.markdown(
     """
     Hello! Explore restaurants in the DFW area using the filters on the left. 
-    For personalized recommendations, see form below! 
+    For personalized recommendations, see form at the bottom of the page! 
     """
 )
 
