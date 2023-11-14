@@ -95,7 +95,7 @@ with cl1:
 with cl2:
     st.subheader("Top-Rated (Godly) Restaurants")
     top_rated_df = filtered_df[filtered_df['Rating'] == 'godly']
-    st.dataframe(top_rated_df[['Name', 'Neighborhood', 'Cuisine', 'Rating']], width=1000)
+    st.dataframe(top_rated_df[['Name', 'Neighborhood', 'Cuisine']])
 
 st.title("Restaurants")
 st.dataframe(filtered_df[['Name', 'Neighborhood', 'Cuisine', 'Rating', 'Cost']])
