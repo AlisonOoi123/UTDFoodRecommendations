@@ -186,7 +186,6 @@ with st.form("recommendation_form"):
                     'Frisco',
                     'Allen',
                     'Bishop Arts',
-                    'Downtown Dallas',
                     'Mesquite',
                     'Carrollton',
                     'Northside',
